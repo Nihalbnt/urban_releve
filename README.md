@@ -25,3 +25,7 @@ Urban Relevé est une application mobile développée en **Flutter** pour la **g
 - **SQLite** : base de données locale pour stocker les constructions.
 - **Flutter Map + Leaflet** : affichage et interaction avec la carte.
 - **Structure des dossiers** :
+lib/
+models/ # Modèles de données (Construction, User)
+services/ # Services (DBHelper)
+screens/ # Écrans de l'application (Home, DrawMap, FullMap, List, Form)
