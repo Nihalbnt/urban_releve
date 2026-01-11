@@ -1,16 +1,27 @@
-# urban_releve
+# Urban Relevé - Application Flutter de Relevé Cartographique
 
-A new Flutter project.
+Urban Relevé est une application mobile développée en **Flutter** pour la **gestion et le suivi des constructions urbaines**. Elle permet de dessiner des polygones sur une carte, d’ajouter des informations attributaires et de consulter les constructions existantes.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Fonctionnalités principales**
 
-A few resources to get you started if this is your first Flutter project:
+- Authentification des utilisateurs.
+- Affichage d’une carte OpenStreetMap.
+- Ajout d’une construction :
+  - Dessin d’un polygone sur la carte.
+  - Saisie des attributs : nom, adresse, type, contact.
+- Consultation des constructions :
+  - Carte plein écran avec tous les polygones.
+  - Liste des constructions avec détails.
+- Navigation fluide entre la carte et la liste des constructions.
+- Enregistrement des données dans **SQLite** pour persistance locale.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **Architecture**
+
+- **Flutter** : frontend mobile.
+- **SQLite** : base de données locale pour stocker les constructions.
+- **Flutter Map + Leaflet** : affichage et interaction avec la carte.
+- **Structure des dossiers** :
